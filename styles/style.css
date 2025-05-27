@@ -451,19 +451,7 @@
   border: 1px solid transparent;
   font-weight: inherit;
   text-decoration: none;
-}
-
-.grid__link::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 2px;
-  left: 1px;
-  z-index: -1;
-  color: var(--accent-color);
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  text-shadow: 1px 2px var(--accent-color);
 }
 
 .grid__link:hover {

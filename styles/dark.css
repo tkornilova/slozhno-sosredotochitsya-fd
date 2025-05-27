@@ -11,4 +11,8 @@
   .header__decoration {
     display: block;
   }
+
+  .grid__list {
+    --accent-color: rgba(255, 0, 112, 1);
+  }
 }
