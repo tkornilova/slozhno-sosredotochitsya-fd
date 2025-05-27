@@ -373,7 +373,7 @@
   }
 }
 
-.grid.grid--3-cols {
+.grid.grid--grouped {
   @media (width >= 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
@@ -392,13 +392,13 @@
   line-height: inherit;
 }
 
-.grid.grid--3-cols .grid__title {
+.grid.grid--grouped .grid__title {
   @media (width >= 768px) {
     inline-size: 30%;
   }
 }
 
-.grid.grid--3-cols .grid__list {
+.grid.grid--grouped .grid__list {
   @media (width >= 1024px) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
