@@ -268,18 +268,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 10px 0;
+  margin-block-start: 40px;
   color: var(--accent-color);
   block-size: 100vh;
   min-block-size: 666px;
 
   @media (width >= 768px) {
-    margin: 70px 20px 0;
-    min-block-size: 1005px;
+    margin-block-start: 61px;
+    min-block-size: 1025px;
   }
 
   @media (width >= 1024px) {
-    min-block-size: 747px;
+    min-block-size: 768px;
   }
 }
 
