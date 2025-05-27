@@ -407,18 +407,20 @@
 }
 
 .grid__item:not(:last-child),
-.grid__sub-item:not(:last-child) {
+.grid__sub-item:not(:last-child),
+.grid__article:not(:last-child) {
   margin-block-end: 18px;
 }
 
 .grid__item,
-.grid__sub-item {
+.grid__sub-item,
+.grid__article {
   display: grid;
   gap: 11px;
   block-size: fit-content;
 }
 
-.grid__item:has(.grid__sub-list) {
+.grid__article {
   gap: 20px;
 }
 
