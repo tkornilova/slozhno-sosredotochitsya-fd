@@ -18,7 +18,11 @@
   }
 
   .footer__text {
-    --accent-color: rgba(255, 0, 112, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+
+    @media (width >= 1024px) {
+      --accent-color: rgba(255, 0, 112, 1);
+    }
   }
 }
 
@@ -43,7 +47,11 @@
     }
 
     .footer__text {
-      --accent-color: rgba(255, 0, 112, 1);
+      --accent-color: rgba(255, 141, 203, 1);
+
+      @media (width >= 1024px) {
+        --accent-color: rgba(255, 0, 112, 1);
+      }
     }
   }
 }
