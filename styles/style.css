@@ -298,19 +298,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px auto 10px;
+  margin: 40px auto 0;
   color: var(--accent-color);
-  block-size: calc(100vh - 20px); /* Вычтены отступы */
-  min-block-size: 646px;
+  block-size: 100vh;
+  min-block-size: 666px;
 
   @media (width >= 768px) {
-    margin: 80px auto 10px;
-    min-block-size: 985px;
+    margin: 70px auto 0;
+    min-block-size: 1005px;
   }
 
   @media (width >= 1024px) {
-    margin: 80px auto 10px;
-    min-block-size: 728px;
+    min-block-size: 747px;
   }
 }
 
@@ -323,14 +322,14 @@
 }
 
 .footer::before {
-  top: 0;
+  top: 10px;
   right: 0;
   border-inline-end: 1px solid currentColor;
   border-block-start: 1px solid currentColor;
 }
 
 .footer::after {
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   border-inline-start: 1px solid currentColor;
   border-block-end: 1px solid currentColor;
