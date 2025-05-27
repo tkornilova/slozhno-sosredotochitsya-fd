@@ -12,6 +12,7 @@
     display: block;
   }
 
+  .header__promo-note,
   .grid__list {
     --accent-color: rgba(255, 0, 112, 1);
   }
