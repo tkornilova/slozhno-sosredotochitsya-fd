@@ -1,4 +1,4 @@
-/* Общие стили для страницы */
+/* Основные стили для страницы */
 
 .page {
   font-family: var(--main-font-family), sans-serif;
@@ -345,6 +345,17 @@
   }
 }
 
+/* Title-decor */
+
+.title-decor {
+  color: var(--title-decor-color);
+  font-weight: var(--bold-font-weight);
+  font-size: inherit;
+  line-height: inherit;
+  background-color: var(--title-decor-bg-color);
+  block-size: fit-content;
+}
+
 /* Grid */
 
 .grid {
@@ -445,15 +456,4 @@
   border: 1px solid currentColor;
   outline: none;
   transition: border var(--transition);
-}
-
-/* Title-decor */
-
-.title-decor {
-  color: var(--title-decor-color);
-  font-weight: var(--bold-font-weight);
-  font-size: inherit;
-  line-height: inherit;
-  background-color: var(--title-decor-bg-color);
-  block-size: fit-content;
 }
