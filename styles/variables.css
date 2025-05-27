@@ -1,4 +1,16 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --main-font-size: 18px;
+  --main-line-height: 23.4px;
+  --main-font-family: 'IBM Plex mono';
+  --regular-font-weight: 400;
+  --bold-font-weight: 700;
+  --main-bg-color: rgba(0, 0, 40, 1);
+  --main-bg-image: url(../images/cover-image-dark.png);
+  --main-text-color: rgba(241, 178, 206, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-40: rgba(255, 0, 112, 0.4);
+  --promo-note-color: rgba(219, 0, 255, 1);
+  --title-decor-color: rgba(0, 0, 40, 1);
+  --title-decor-bg-color: rgba(255, 0, 112, 1);
+  --transition: 0.3s ease;
+}
