@@ -1,8 +1,6 @@
 /* Общие стили для страницы */
 
 .page {
-  margin: 0 auto;
-  padding: 0 10px;
   font-family: var(--main-font-family), sans-serif;
   font-weight: var(--regular-font-weight);
   font-size: var(--main-font-size);
@@ -13,6 +11,10 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.main {
+  padding: 0 10px;
 
   @media (width >= 768px) {
     padding: 0 20px 0;
@@ -26,19 +28,19 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding: 73px 0 66px;
+  padding: 73px 10px 66px;
   color: var(--accent-color);
   block-size: 100vh;
   min-block-size: 530px;
 
   @media (width >= 768px) {
-    padding: 190px 0 183px;
+    padding: 190px 20px 183px;
     min-block-size: 1024px;
   }
 
   @media (width >= 1024px) {
     align-items: center;
-    padding: 19px 0 134px;
+    padding: 19px 20px 134px;
     min-block-size: 615px;
   }
 }
@@ -53,30 +55,32 @@
 
 .header::before {
   top: 10px;
-  right: 0;
+  right: 10px;
   border-inline-end: 1px solid currentColor;
   border-block-start: 1px solid currentColor;
 
   @media (width >= 768px) {
     top: 20px;
+    right: 20px;
   }
 }
 
 .header::after {
   bottom: 10px;
-  left: 0;
+  left: 10px;
   border-inline-start: 1px solid currentColor;
   border-block-end: 1px solid currentColor;
 
   @media (width >= 768px) {
     bottom: 20px;
+    left: 20px;
   }
 }
 
 .header__decoration {
   position: absolute;
   top: 18px;
-  right: 10px;
+  right: 20px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--accent-color);
   background-color: var(--accent-color);
@@ -85,7 +89,7 @@
 
   @media (width >= 768px) {
     top: 28px;
-    right: 9px;
+    right: 29px;
   }
 }
 
@@ -298,13 +302,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px auto 0;
+  margin: 40px 10px 0;
   color: var(--accent-color);
   block-size: 100vh;
   min-block-size: 666px;
 
   @media (width >= 768px) {
-    margin: 70px auto 0;
+    margin: 70px 20px 0;
     min-block-size: 1005px;
   }
 
