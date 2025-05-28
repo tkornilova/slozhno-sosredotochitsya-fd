@@ -13,7 +13,8 @@
   }
 
   .header__promo-note,
-  .grid__list {
+  .grid__list,
+  .grid__article {
     --accent-color: rgba(255, 141, 203, 1);
   }
 
@@ -42,7 +43,8 @@
     }
 
     .header__promo-note,
-    .grid__list {
+    .grid__list,
+    .grid__article {
       --accent-color: rgba(255, 141, 203, 1);
     }
 
